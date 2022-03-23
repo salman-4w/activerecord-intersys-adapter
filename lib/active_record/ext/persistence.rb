@@ -24,7 +24,7 @@ module ActiveRecord
         intersys_object.save
       end
     end
-   # alias_method_chain :update, :serial_objects
+    alias_method_chain :update, :serial_objects
 
     private
 
