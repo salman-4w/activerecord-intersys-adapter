@@ -12,11 +12,11 @@ end
 ActiveRecord::Base.configurations = {
   "test" => {
     adapter: "intersys",
-    namespace: "TEST",
-    package: "Test",
-    host: "winchester.hmgrain.com",
-    port: "2008",
-    user: "_SYSTEM",
+    namespace: "USER",
+    package: "USER",
+    host: "192.168.56.1",
+    port: "1972",
+    user: "_system",
     password: "SYS"
   }
 }
