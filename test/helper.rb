@@ -14,7 +14,7 @@ ActiveRecord::Base.configurations = {
     adapter: "intersys",
     namespace: "USER",
     package: "USER",
-    host: "192.168.56.1",
+    host: "localhost",
     port: "1972",
     user: "_system",
     password: "SYS"
