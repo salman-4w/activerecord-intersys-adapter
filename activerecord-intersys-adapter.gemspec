@@ -15,6 +15,6 @@ Gem::Specification.new do |s|
   s.files = Dir["lib/**/*", "ext/**/*"]
   s.require_path = "lib"
   s.has_rdoc = false
-  s.add_dependency "activerecord", ">= 3.2.6"
+  s.add_dependency "activerecord", ">= 3.2.3"
   s.extensions << "ext/extconf.rb"
 end
